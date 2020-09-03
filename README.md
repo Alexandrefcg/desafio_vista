@@ -7,8 +7,6 @@
 
 O Desafio: Você recebeu 3 contatos de empresas que desejam fechar uma parceria com a Vista para integração com o nosso CRM. Dentre estas você deve escolher uma que, de acordo com critérios que você estabelecer, terá mais viabilidade, impacto e aderência para os clientes da Vista Software.
 
-Para a empresa escolhida você deve desenvolver um mini projeto utilizando PHP que contenha um exemplo de como seria a integração de pelo menos um dos recursos do parceiro escolhido
-
 O que esperamos:
 - Que você faça uma análise baseada em critérios objetivos sobre as três empresas e justifique as escolhas.
 - Que você entenda dentro do nosso CRM as mudanças necessárias para integração e crie uma especificação para estas mudanças
