@@ -1,0 +1,28 @@
+<% include ../../partials/examplesHead %>
+
+<h4>1. Envio de documento para assinatura</h4>
+<p>Para este exemplo será necessá informar um documento para assinatura, o e-mail do cliente que irá autenticar o documento, e o nome completo do cliente assinante.</p>
+
+<% include ../../partials/docBody %>
+
+<form class="eg" action="" method="post" data-busy="form">
+  <div class="form-group">
+    <label for="myfile">Arquivo (contrato / proposta)</label>
+    <input type="file" class="form-control" id="myfile" name="myfile" required >    
+  </div>
+  <div class="form-group">
+    <label for="signerEmail">E-mail do cliente para assinatura</label>
+    <input type="email" class="form-control" id="signerEmail" name="signerEmail"
+          aria-describedby="emailHelp" placeholder="exemplo@exemplo.com" required
+          value="<%= locals.dsConfig.signerEmail %>">    
+  </div>
+  <div class="form-group">
+    <label for="signerName">Nome do assinante</label>
+    <input type="text" class="form-control" id="signerName" placeholder="Nome" name="signerName"
+          value="<%= locals.dsConfig.signerName %>" required>
+  </div>
+  <input type="hidden" name="_csrf" value="<%- csrfToken %>">
+  <button type="submit" class="btn btn-docu">Enviar</button>
+</form>
+
+<% include ../../partials/examplesFoot.ejs %>
