@@ -17,6 +17,7 @@ O que esperamos:
 
 ## Instalação de dependências 
 
+Na pasta src, entre com o seguinte comando no terminal:
 ```sh
 npm install
 
@@ -29,7 +30,7 @@ nodemon index.js
 ```
 ## Iniciando o cliente:
 
-Na pasta cliente entre com o seguinte comando:
+Na pasta src, entre com o seguinte comando no terminal:
 ```sh
 npm start
 ```
