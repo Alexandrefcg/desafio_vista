@@ -22,19 +22,12 @@ Na pasta src, entre com o seguinte comando no terminal:
 npm install
 
 ```
-## Iniciando o servidor:
-
-Na pasta src, entre com o seguinte comando no terminal:
-```sh
-nodemon index.js
-```
-## Iniciando o cliente:
+## Iniciando aplicação:
 
 Na pasta src, entre com o seguinte comando no terminal:
 ```sh
 npm start
 ```
-
 ## Layout e uso
 
 Abaixo tenho uma imagem de como o sistema deverá ser apresentado uma vez iniciado http://localhost:5000/.
