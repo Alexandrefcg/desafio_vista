@@ -28,6 +28,12 @@ Na pasta src, entre com o seguinte comando no terminal:
 ```sh
 npm start
 ```
+
+## Teste
+
+No diretorio desafio_vista/src/demo_documentspasta/, há um arquivo teste.pdf que deve ser selecionado como arquivo na etapa de envio de assinatura.
+
+
 ## Layout e uso
 
 Abaixo tenho uma imagem de como o sistema deverá ser apresentado uma vez iniciado http://localhost:5000/.
